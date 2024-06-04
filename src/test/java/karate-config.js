@@ -1,11 +1,11 @@
 function fn() {
 
     // log request and response in pretty format can be useful for debugging
-    //karate.configure('logPrettyRequest', true);  
-    //karate.configure('logPrettyResponse', true);
+    karate.configure('logPrettyRequest', true);  
+    karate.configure('logPrettyResponse', true);
 
     // configure reports for better performance in CI -> Can be commented for local execution
-    karate.configure("report", {showLog: false,showAllSteps: false}); 
+    //karate.configure("report", {showLog: false,showAllSteps: false}); 
 
   
     var config = {

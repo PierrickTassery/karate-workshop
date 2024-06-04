@@ -1,9 +1,9 @@
-Feature: GET 
+Feature: GET Users 
 
 Background:
    * url baseUrl
    
-Scenario: GET on Private
-  Given path '/posts'
+Scenario: GET Users
+  Given path '/users'
   When method get
   Then status 200
