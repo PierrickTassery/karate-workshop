@@ -1,12 +1,12 @@
-package JsonPlaceHolder.GET;
+package jsonPlaceHolder.Get;
 
 import com.intuit.karate.junit5.Karate;
 
 class GetRunner {
 
     @Karate.Test
-    Karate testGET() {
-        return Karate.run("classpath:JsonPlaceHolder/GET").relativeTo(getClass());
+    Karate testGet() {
+        return Karate.run("classpath:jsonPlaceHolder/Get").relativeTo(getClass());
     }
 
 }
