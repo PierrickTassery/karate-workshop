@@ -34,7 +34,6 @@
 
 
 - Create a folder called Comment under jsonPlaceHolder. Create the file **commentRunner.java** (You can copy the userRunner file and just update the path.)
-- 
 - Create a feature file called comment-get.feature.
     - Add a scenario to test `/comments?postId={{postID}}` endpoint. Test that the status code is **200** when you try to retrieve all the comments for postId = 1 (https://karatelabs.github.io/karate/#param)
 - Create a feature file called comment-creation.feature.
