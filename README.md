@@ -1,3 +1,6 @@
+## Pre requisite : 
+ [Git](https://git-scm.com/download) - to clone this project, or you could just download the source code as a ZIP file
+
 
 ## Exercice 1 :
 
