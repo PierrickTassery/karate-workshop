@@ -1,6 +1,6 @@
 ## Pre requisite : 
  - [Git](https://git-scm.com/download) - to clone this project, or you could just download the source code as a ZIP file
- - Extract KarateWorkshop.postman_environment.json & Karate workshop.postman_collection.json from the repository and import them in Postman
+ - Extract *KarateWorkshop.postman_environment.json* & *Karate workshop.postman_collection.json* from the repository and import them in Postman
  - Explore the API under test using the **Karate workshop** collection imported along with the **KarateWorkshop** environment
 
 ## Exercice 1 :
