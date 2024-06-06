@@ -6,7 +6,7 @@ class userRunner {
 
     @Karate.Test
     Karate testuser() {
-        return Karate.run("classpath:jsonPlaceHolder/user").relativeTo(getClass());
+        return Karate.run("classpath:JsonPlaceHolder/user").relativeTo(getClass());
     }
 
 }
