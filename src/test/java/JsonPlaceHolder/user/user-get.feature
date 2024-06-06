@@ -7,3 +7,11 @@ Scenario: GET Users
   Given path '/users'
   When method get
   Then status 200
+
+Scenario: GET Users by ID
+   Given path '/users/5'
+   When method get
+   Then status 200
+   Then match response.email == 'Lucio_Hettinger@annie.ca'
+   * print 'the email of user 5 is:', response.email
+   * print 'the company of user 5 is:', response.company.name
