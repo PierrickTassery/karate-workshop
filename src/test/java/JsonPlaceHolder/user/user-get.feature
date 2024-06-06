@@ -13,5 +13,6 @@ Scenario: GET Users by ID
    When method get
    Then status 200
    Then match response.email == 'Lucio_Hettinger@annie.ca'
+   * print 'the user 5 is:', response
    * print 'the email of user 5 is:', response.email
    * print 'the company of user 5 is:', response.company.name
