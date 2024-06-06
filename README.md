@@ -25,7 +25,7 @@
 
 
 
-- Create a folder called Post under jsonPlaceHolder. Create the file **postRunner.java** (You can copy the userRunner file and just update the path.)
+- Create a folder called post under jsonPlaceHolder. Create the file **postRunner.java** (You can copy the userRunner file and just update the path.)
 - Create a feature file called post-get.feature.
     - Add a scenario to test the `/posts` endpoint in order to test that the status code is **200**.
     - Add another scenario to test the `/users/{{id}}/posts` endpoint that retrieves all the posts for a user. Verify that the status code is **200.**
