@@ -13,7 +13,7 @@
     - Print the email of the user with id=5
     - Print the name of the company of the user with id=5
     - Verify that the email of the user with id=5 is **Lucio_Hettinger@annie.ca** using match (https://karatelabs.github.io/karate/#match) (*page 93 of the PDF : Matching values*)
-    - Run your test using **userRunner** & **jsonPlaceHolderTest** file in order to generate a report (ask me to understand the difference)
+    - Run your test using **userRunner** & **jsonPlaceHolderTest** file (ask me to understand the difference)
 
 - Create a feature file called user-delete.feature in user folder and verify that the status code is 200 when deleting the user with id = 4
 
