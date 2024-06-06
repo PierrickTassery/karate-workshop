@@ -16,7 +16,7 @@
     - Run your test using **userRunner** & **jsonPlaceHolderTest** file (ask me to understand the difference)
 
  -  Create a feature file called user-delete.feature in user folder and verify that the status code is 200 when deleting the user with id = 4
-	 - Add a tag called AccessControl to your feature file (https://karatelabs.github.io/karate/#tags)
+	 - Add a tag called AccessControl to your feature file (https://karatelabs.github.io/karate/#tags) and run tour test again. CHeck the report.
        
 
 ## Exercice 2 :
