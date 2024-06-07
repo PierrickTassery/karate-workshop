@@ -1,4 +1,4 @@
-Feature: POST get user id
+Feature: POST get user
 
   Background:
     * url baseUrl

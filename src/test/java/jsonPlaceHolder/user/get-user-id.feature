@@ -7,3 +7,4 @@ Feature: GET User id
     Given path '/users/5'
     When method get
     Then status 200
+    * print "The Email is : " , response.email
