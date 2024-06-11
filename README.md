@@ -6,7 +6,7 @@
 ## Exercice 1 :
 
 
-- Create a branch "Exercice1_yourName" (https://inovasoftware.jira.com/wiki/spaces/DEALDEV/pages/3910172673/Version+Control+Guide+Branch+Management+Pull+Request)
+- Create a branch "Workshop_yourName" (https://inovasoftware.jira.com/wiki/spaces/DEALDEV/pages/3910172673/Version+Control+Guide+Branch+Management+Pull+Request)
 - Write another Scenario in the user-get.feature to test the `/users/{{id}}` endpoint
     - Check that the status code is **200** when retrieving user with id=5 (https://karatelabs.github.io/karate/#status)
     - Print the response of the request tested in the previous step (https://karatelabs.github.io/karate/#print)
