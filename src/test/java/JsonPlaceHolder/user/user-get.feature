@@ -1,4 +1,4 @@
-Feature: GET Users 
+Feature: GET Users  
 
 Background:
    * url baseUrl
